@@ -1,9 +1,17 @@
 {
 	"_method_": {},
 	"Argument": {
+		"_inheritedFrom_": "Object"
+	},
+	"ArgumentParser": {
 		"new()": {
-			"Syntax": "**.new**(*help* : Text; *options* : Object)",
+			"Syntax": "**.new**(*name* : Text; *help* : Text; *options* : Object)",
 			"Params": [
+				[
+					"name",
+					"Text",
+					"->"
+				],
 				[
 					"help",
 					"Text",
@@ -12,19 +20,6 @@
 				[
 					"options",
 					"Object",
-					"->"
-				]
-			],
-			"Summary": ""
-		}
-	},
-	"ArgumentParser": {
-		"new()": {
-			"Syntax": "**.new**(*help* : Text)",
-			"Params": [
-				[
-					"help",
-					"Text",
 					"->"
 				]
 			],
@@ -193,12 +188,18 @@
 				]
 			],
 			"Summary": ""
-		}
+		},
+		"_inheritedFrom_": "Object"
 	},
 	"Flag": {
 		"new()": {
-			"Syntax": "**.new**(*help* : Text; *options* : Object)",
+			"Syntax": "**.new**(*name* : Text; *help* : Text; *options* : Object)",
 			"Params": [
+				[
+					"name",
+					"Text",
+					"->"
+				],
 				[
 					"help",
 					"Text",
@@ -211,12 +212,21 @@
 				]
 			],
 			"Summary": ""
-		}
+		},
+		"_inheritedFrom_": "Object"
 	},
 	"Option": {
+		"_inheritedFrom_": "Object"
+	},
+	"Object": {
 		"new()": {
-			"Syntax": "**.new**(*help* : Text; *options* : Object)",
+			"Syntax": "**.new**(*name* : Text; *help* : Text; *options* : Object)",
 			"Params": [
+				[
+					"name",
+					"Text",
+					"->"
+				],
 				[
 					"help",
 					"Text",
