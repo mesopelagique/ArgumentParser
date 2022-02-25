@@ -1,0 +1,234 @@
+{
+	"_method_": {},
+	"Argument": {
+		"new()": {
+			"Syntax": "**.new**(*help* : Text; *options* : Object)",
+			"Params": [
+				[
+					"help",
+					"Text",
+					"->"
+				],
+				[
+					"options",
+					"Object",
+					"->"
+				]
+			],
+			"Summary": ""
+		}
+	},
+	"ArgumentParser": {
+		"new()": {
+			"Syntax": "**.new**(*help* : Text)",
+			"Params": [
+				[
+					"help",
+					"Text",
+					"->"
+				]
+			],
+			"Summary": ""
+		},
+		"parse()": {
+			"Syntax": "**.parse**(*args* : Collection)->parsed : Object",
+			"Params": [
+				[
+					"args",
+					"Collection",
+					"->"
+				],
+				[
+					"parsed",
+					"Object",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"usage()": {
+			"Syntax": "**.usage**()->usage : Text",
+			"Params": [
+				[
+					"usage",
+					"Text",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"usageOneLine()": {
+			"Syntax": "**.usageOneLine**()->usage : Text",
+			"Params": [
+				[
+					"usage",
+					"Text",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"run()": {
+			"Syntax": "**.run**(*args* : Collection)",
+			"Params": [
+				[
+					"args",
+					"Collection",
+					"->"
+				]
+			],
+			"Summary": ""
+		},
+		"addFlag()": {
+			"Syntax": "**.addFlag**(*name* : Text; *help* : Text; *options* : Object)->flag : cs.argparse.Flag",
+			"Params": [
+				[
+					"name",
+					"Text",
+					"->"
+				],
+				[
+					"help",
+					"Text",
+					"->"
+				],
+				[
+					"options",
+					"Object",
+					"->"
+				],
+				[
+					"flag",
+					"cs.argparse.Flag",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"addArgument()": {
+			"Syntax": "**.addArgument**(*name* : Text; *help* : Text; *options* : Object)->argument : cs.argparse.Argument",
+			"Params": [
+				[
+					"name",
+					"Text",
+					"->"
+				],
+				[
+					"help",
+					"Text",
+					"->"
+				],
+				[
+					"options",
+					"Object",
+					"->"
+				],
+				[
+					"argument",
+					"cs.argparse.Argument",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"addOption()": {
+			"Syntax": "**.addOption**(*name* : Text; *help* : Text; *options* : Object)->option : cs.argparse.Option",
+			"Params": [
+				[
+					"name",
+					"Text",
+					"->"
+				],
+				[
+					"help",
+					"Text",
+					"->"
+				],
+				[
+					"options",
+					"Object",
+					"->"
+				],
+				[
+					"option",
+					"cs.argparse.Option",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"addParserInstance()": {
+			"Syntax": "**.addParserInstance**(*parser* : cs.argparse.ArgumentParser)->out : cs.argparse.ArgumentParser",
+			"Params": [
+				[
+					"parser",
+					"cs.argparse.ArgumentParser",
+					"->"
+				],
+				[
+					"out",
+					"cs.argparse.ArgumentParser",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"addParser()": {
+			"Syntax": "**.addParser**(*name* : Text; *help* : Text)->parser : cs.argparse.ArgumentParser",
+			"Params": [
+				[
+					"name",
+					"Text",
+					"->"
+				],
+				[
+					"help",
+					"Text",
+					"->"
+				],
+				[
+					"parser",
+					"cs.argparse.ArgumentParser",
+					"<-"
+				]
+			],
+			"Summary": ""
+		}
+	},
+	"Flag": {
+		"new()": {
+			"Syntax": "**.new**(*help* : Text; *options* : Object)",
+			"Params": [
+				[
+					"help",
+					"Text",
+					"->"
+				],
+				[
+					"options",
+					"Object",
+					"->"
+				]
+			],
+			"Summary": ""
+		}
+	},
+	"Option": {
+		"new()": {
+			"Syntax": "**.new**(*help* : Text; *options* : Object)",
+			"Params": [
+				[
+					"help",
+					"Text",
+					"->"
+				],
+				[
+					"options",
+					"Object",
+					"->"
+				]
+			],
+			"Summary": ""
+		}
+	}
+}
