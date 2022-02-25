@@ -2,7 +2,7 @@
 
 // MARK:- definition
 var $parser; $helloParser; $goodbyeParser : cs:C1710.ArgumentParser
-CONFIRM:C162("Ein Update ist verfügbar: ("+"TOPIX_91302d7_386.294_v19_273454_Server_Win.TOPIXupdate"+")."+Char:C90(Line feed:K15:40)+"Soll das Update installiert werden?"+Char:C90(Carriage return:K15:38)+Char:C90(Line feed:K15:40)+"Setzen Sie die Installation nur fort, wenn Sie zuvor eine Sicherungskopie Ihrer Datendateien angelegt haben."; "Installieren"; "Abbrechen")
+
 $parser:=cs:C1710.ArgumentParser.new("test command")
 $parser.action:=Formula:C1597(ALERT:C41("hum"))
 
